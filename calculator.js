@@ -1,3 +1,5 @@
+const math = require('mathjs')
+const $ = require("./jquery-3.3.1.min.js")
 
 var clear = false;
 
