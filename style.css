@@ -12,10 +12,11 @@ html, body
 }
 #display
 {
+    height: 50px;
     margin: 0 auto;
     min-width: 348px;
     max-width: 348px;
-    padding: 0 10px;
+    padding: 5px 10px;
     border: 1px solid darkcyan;
     background-color: #d8e9f3;
 }
