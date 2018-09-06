@@ -1,7 +1,7 @@
 const {app, BrowserWindow} = require('electron')
 
 function createWindow() {
-    win = new BrowserWindow({width: 386, height: 485})
+    win = new BrowserWindow({width: 376, height: 475, resizable: false})
 
     win.loadFile("calculator.html")
     win.setMenu(null);
