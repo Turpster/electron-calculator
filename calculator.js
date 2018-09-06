@@ -76,7 +76,7 @@ $(document).ready(() =>
         clear = true
         try
         {
-            $(".calculator-display").html(math.eval($(".calculator-display").html()))
+            $(".calculator-display").html("= " + math.eval($(".calculator-display").html()))
         } 
         catch(Exception)
         {

@@ -8,7 +8,6 @@ function createWindow() {
     win.on('closed', () => {
         win = null;
     })
-    
 }
 
 app.on('ready', createWindow);
