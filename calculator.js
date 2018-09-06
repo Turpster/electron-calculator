@@ -71,6 +71,10 @@ $(document).ready(() =>
     {
         AddToDisplay("/")
     })
+    $(".numpad-decimal").click(() => 
+    {
+        AddToDisplay(".")
+    })
     $(".numpad-equals").click(() => 
     {
         clear = true
